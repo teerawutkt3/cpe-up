@@ -1,4 +1,4 @@
-<nav class="sidebar sidebar-offcanvas" id="sidebar">
+<nav class="sidebar sidebar-offcanvas" id="sidebar" style="background-image: linear-gradient(-90deg, #008c65, white);">
   <ul class="nav">
     <li class="nav-item nav-profile">
       <div class="nav-link">
@@ -19,10 +19,16 @@
         </button>
       </div>
     </li>
-    <li class="nav-item" >
+    <li class="nav-item">
       <a class="nav-link" href="#" routerLink="/dashboard" routerLinkActive>
         <i class="menu-icon mdi mdi-television"></i>
         <span class="menu-title">Dashboard</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" routerLink="/employees" routerLinkActive>
+        <i class="menu-icon  fa fa-address-book-o"></i>
+        <span class="menu-title">Employees</span>
       </a>
     </li>
     <li class="nav-item">
@@ -49,7 +55,7 @@
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="../../pages/charts/chartjs.html">
+      <a class="nav-link" href="#" [routerLink]="[ '/chart' ]" routerLinkActive="active">
         <i class="menu-icon mdi mdi-chart-line"></i>
         <span class="menu-title">Charts</span>
       </a>

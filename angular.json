@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",                          
+              "src/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/DataTables/datatables.min.js",
+              "src/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap4.min.js"              
+            ]
           },
           "configurations": {
             "production": {
